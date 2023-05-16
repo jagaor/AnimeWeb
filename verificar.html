@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>AnimeWeb</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="redireccionar.js"></script>
+</head>
+
+<body id="ageBody">
+  <script>
+    function openAgeGate() {
+      document.getElementById("ageGate").style.display = "block";
+      document.getElementById("openAgeGateButton").style.display = "none"; // Ocultar el botón
+    }
+
+    function closeAgeGate() {
+      document.getElementById("ageGate").style.display = "none";
+    }
+
+    function checkAge() {
+      var dob = new Date(document.getElementById("dob").value);
+      var today = new Date();
+      var age = today.getFullYear() - dob.getFullYear();
+      if (age >= 18) {
+        closeAgeGate();
+        redirectToIndex(); // Redirigir al usuario a la página principal del sitio web
+      } else {
+        var yearsToGo = 18 - age;
+        alert("Lo siento, debes tener al menos 18 años para acceder a este sitio web. Te faltan " + yearsToGo + " años para poder acceder.");
+      }
+    }
+  </script>
+
+  <div id="ageGate">
+    <h1>Anime<span><i>WEB</i></span></h1>
+    <p>Por favor, verifique que es mayor de edad para poder entrar:</p>
+    <input type="date" id="dob">
+    <button id="ageButton" onclick="checkAge()">Entrar</button>
+  </div>
+</body>

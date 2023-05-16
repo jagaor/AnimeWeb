@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="AnimeWeb">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="animes" maxOccurs="1" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="animes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="anime" maxOccurs="unbounded" />
+        <xs:element ref="pelicula" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="anime">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="titulo_og" type="xs:string" />
+        <xs:element name="titulo" type="xs:string" />
+        <xs:element name="sinopsis" type="xs:string" />
+        <xs:element name="episodios" type="xs:string" />
+        <xs:element name="temporadas" type="xs:string" />
+        <xs:element name="genero" type="xs:string" />
+        <xs:element name="año_comienzo" type="xs:string" />
+      </xs:sequence>
+      <xs:attribute name="url" type="xs:string" />
+      <xs:attribute name="cover" type="xs:string" />
+      <xs:attribute name="id" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pelicula">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="titulo_og" type="xs:string" />
+        <xs:element name="titulo" type="xs:string" />
+        <xs:element name="sinopsis" type="xs:string" />
+        <xs:element name="genero" type="xs:string" />
+        <xs:element name="año_comienzo" type="xs:string" />
+      </xs:sequence>
+      <xs:attribute name="url" type="xs:string" />
+      <xs:attribute name="cover" type="xs:string" />
+      <xs:attribute name="id" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

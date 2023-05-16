@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>AnimeWeb</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="page-container">
+    <header id="header">
+      <div class="wrapper">
+        <div class="content-header">
+          <div class="logo-wrap"><img src="resources/logo_aw.jpg" /></div>
+          <div>
+            <p>Anime<span><i>WEB</i></span></p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="main">
+      <div class="wrapper">
+        <div class="sidebar-wrap">
+          <div class="sidebar">
+            <p><a href="index.html">INICIO</a></p>
+            <p><a href="contacto.html">CONTACTO</a></p>
+          </div>
+        </div>
+        <div class="inf-content-main">
+          <div class="inf-content-wrap">
+            <div class="anime-wrap">
+              <div class="section-1">
+                <img id="cover" src="" />
+                <div class="info">
+                  <p><b>Rōmaji</b></p>
+                  <p id="titulo_og">N/A</p>
+                  <p><b>Título alternativo</b></p>
+                  <p id="titulo1">N/A</p>
+                  <p><b>Año de emisión</b></p>
+                  <p id="año_comienzo">N/A</p>
+                  <p><b>Episodios</b></p>
+                  <p id="episodios">N/A</p>
+                  <p><b>Temporadas</b></p>
+                  <p id="temporadas">N/A</p>
+                  <p><b>Género</b></p>
+                  <p id="genero">N/A</p>
+                </div>
+              </div>
+              <div class="section-2">
+                <h1 id="titulo2" class="animes-title"></h1>
+                <h2><i>SINOPSIS</i></h2>
+                <p id="sinopsis"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="wrapper">
+        <div class="content-footer">
+          <p>Desarrollado y mantenido por <span>Daniel</span>, <span>Javier</span> y <span>Lucas</span></p>
+          <p class="l2">Todos los derechos reservados</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    function obtenerParametrosURL() {
+      var urlParams = new URLSearchParams(window.location.search);
+      var tipo = urlParams.get('tipo');
+      var id = urlParams.get('id');
+      return { tipo, id };
+    }
+
+    function cargarInformacion() {
+      var parametros = obtenerParametrosURL();
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          var xmlDoc = this.responseXML;
+          var elementosAnime = xmlDoc.getElementsByTagName("anime");
+          var elementosPelicula = xmlDoc.getElementsByTagName("pelicula");
+          var elementos;
+
+          if (parametros.tipo === "anime") {
+            elementos = elementosAnime;
+          } else if (parametros.tipo === "pelicula") {
+            elementos = elementosPelicula;
+          }
+
+          for (var i = 0; i < elementos.length; i++) {
+            var elemento = elementos[i];
+            if (elemento.getAttribute('id') === parametros.id) {
+              document.getElementById('titulo_og').innerHTML = elemento.getElementsByTagName('titulo_og')[0].textContent;
+              document.getElementById('titulo1').innerHTML = elemento.getElementsByTagName('titulo')[0].textContent;
+              document.getElementById('titulo2').innerHTML = elemento.getElementsByTagName('titulo')[0].textContent;
+              document.getElementById('sinopsis').innerHTML = elemento.getElementsByTagName('sinopsis')[0].textContent;
+              document.getElementById('genero').innerHTML = elemento.getElementsByTagName('genero')[0].textContent;
+              document.getElementById('año_comienzo').innerHTML = elemento.getElementsByTagName('año_comienzo')[0].textContent;
+
+              var cover = elemento.getAttribute('cover');
+              var imgElement = document.getElementById("cover");
+              imgElement.src = cover;
+
+              if (parametros.tipo === "anime") {
+                document.getElementById('episodios').innerHTML = elemento.getElementsByTagName('episodios')[0].textContent;
+                document.getElementById('temporadas').innerHTML = elemento.getElementsByTagName('temporadas')[0].textContent;
+              }
+
+              break;
+            }
+          }
+        }
+      };
+      xmlhttp.open("GET", "animeweb.xml", true);
+      xmlhttp.send();
+    }
+
+    window.onload = cargarInformacion;
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./animeweb.xsl"?>
+<AnimeWeb xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="./animeweb.xsd">
+  <animes>
+    <anime url="animeinfo.html" cover="resources/dragon_ball_z_cover.png" id="dragon_ball_z">
+      <titulo_og>Doragon Bōru Zetto</titulo_og>
+      <titulo>Dragon Ball Z</titulo>
+      <sinopsis>
+        Uno de los mangas con más impacto de la historia, fue escrito e ilustrado por Akira Toriyama, serializado en la revista Weekly Shōnen Jump (1984 - 1995).&lt;br&gt;&lt;br&gt;
+        Dragon Ball sigue las aventuras de Goku, un guerrero poderoso que defiende la Tierra contra una amplia variedad de villanos.&lt;br&gt;&lt;br&gt;
+        El manga fue adaptado a dos series de anime, Dragon Ball y Dragon Ball Z, ambas muy populares y que tuvieron un impacto significativo en la industria del anime. Desde entonces, la serie ha sido reconocida como una obra maestra del género y ha tenido una gran influencia en la cultura popular.
+      </sinopsis>
+      <episodios>291</episodios>
+      <temporadas>20</temporadas>
+      <genero>Acción, Aventura, Fantasía, Drama</genero>
+      <año_comienzo>1989</año_comienzo>
+    </anime>
+    <anime url="animeinfo.html" cover="resources/one_piece_cover.png" id="one_piece">
+      <titulo_og>Wan Pīsu</titulo_og>
+      <titulo>One Piece</titulo>
+      <sinopsis>
+        Eiichiro Oda es autor de una de las obras de entretenimiento más reconocidas a nivel mundial. Serializado en la revista Weekly Shōnen Jump (1997), sigue siendo publicado actualmente.&lt;br&gt;&lt;br&gt;
+        A través de su obra, seguimos las aventuras de Monkey D. Luffy, un joven pirata en busca del tesoro legendario "One Piece" para convertirse en el rey de los piratas.&lt;br&gt;
+        Durante su viaje, Luffy reúne a un grupo diverso de compañeros de tripulación y enfrentará una gran variedad de villanos y desafíos.&lt;br&gt;&lt;br&gt;
+        One Piece es una de las series de manga y anime más populares y aclamadas de todos los tiempos, con una gran base de seguidores y una influencia significativa en la cultura popular.
+      </sinopsis>
+      <episodios>1046</episodios>
+      <temporadas>20</temporadas>
+      <genero>Acción, Aventura, Comedia, Drama, Fantasía</genero>
+      <año_comienzo>1999</año_comienzo>
+    </anime>
+    <anime url="animeinfo.html" cover="resources/attack_on_titan_cover.png" id="attack_on_titan">
+      <titulo_og>Shingeki No Kyojin</titulo_og>
+      <titulo>Attack on Titan</titulo>
+      <sinopsis>
+        Attack on Titan es ya un clásico moderno, el manga y anime japonés escrito e ilustrado por Hajime Isayama, fue publicado por primera vez en la revista Bessatsu Shōnen Magazine (2009). Y posteriormente adaptado en una serie de anime en 2013.&lt;br&gt;&lt;br&gt;
+        La historia se desarrolla en un mundo en el que la humanidad ha sido forzada a vivir dentro de ciudades fortificadas para protegerse de los Titanes, criaturas gigantes que se alimentan de seres humanos sin ningún motivo aparente.&lt;br&gt;
+        La serie sigue a los personajes Eren, Mikasa y Armin mientras luchan contra los Titanes y descubren la verdad detrás de su existencia.&lt;br&gt;&lt;br&gt;
+        Ha sido aclamado por su intensa acción, trama emocionante y personajes complejos, y ha sido reconocido como uno de los mejores animes de la década.
+      </sinopsis>
+      <episodios>87</episodios>
+      <temporadas>4</temporadas>
+      <genero>Acción, Drama, Fantasía</genero>
+      <año_comienzo>2013</año_comienzo>
+    </anime>
+    <anime url="animeinfo.html" cover="resources/berserk_cover.png" id="berserk">
+      <titulo_og>Beruseruku</titulo_og>
+      <titulo>Berserk</titulo>
+      <sinopsis>
+        Berserk es un manga y anime japonés escrito e ilustrado por Kentaro Miura. Fue publicado por primera vez en la revista Young Animal en 1989 y posteriormente adaptado en una serie de anime en 1997.&lt;br&gt;&lt;br&gt;
+        La historia sigue a Guts, un guerrero solitario en un mundo medieval lleno de magia y demonios, mientras busca venganza contra su antiguo amigo y líder de banda, Griffith, y lucha contra las fuerzas oscuras que lo persiguen.&lt;br&gt;&lt;br&gt;
+        Este anime es conocido por su cruda violencia, su oscura atmósfera y su exploración profunda de la naturaleza humana, y ha sido ampliamente aclamado como uno de los mejores mangas de aventuras y fantasía de todos los tiempos.
+      </sinopsis>
+      <episodios>25</episodios>
+      <temporadas>1</temporadas>
+      <genero>Acción, Aventura, Fantasía</genero>
+      <año_comienzo>1997</año_comienzo>
+    </anime>
+    <anime url="animeinfo.html" cover="resources/evangelion_cover.png" id="evangelion">
+      <titulo_og>Shin Seiki Evangerion</titulo_og>
+      <titulo>Neon Genesis Evangelion</titulo>
+      <sinopsis>
+        Neon Genesis Evangelion es un anime japonés producido por Studio Gainax. Fue transmitido por primera vez en televisión en 1995 y se ha convertido en una obra maestra del anime y un clásico de la cultura popular.&lt;br&gt;&lt;br&gt;
+        La serie sigue a Shinji Ikari, un joven piloto de robots gigantes llamados Evas, mientras lucha contra una amenaza extraterrestre conocida como los Ángeles y trata de entender su relación con su padre distante, Gendo Ikari, y su madre ausente.&lt;br&gt;&lt;br&gt;
+        Es ampliamente reconocido por su compleja trama, su caracterización profunda y su exploración de temas como la humanidad, la identidad y la religión.
+      </sinopsis>
+      <episodios>26</episodios>
+      <temporadas>1</temporadas>
+      <genero>Drama, Acción, Fantasía</genero>
+      <año_comienzo>1995</año_comienzo>
+    </anime>
+    <anime url="animeinfo.html" cover="resources/rainbow_nisha_cover.png" id="rainbow_nisha">
+      <titulo_og>Rainbow: Nisha Rokubō no Shichinin</titulo_og>
+      <titulo>Rainbow: Nisha Rokubou no Shichinin</titulo>
+      <sinopsis>
+        Rainbow: Nisha Rokubo no Shichinin es un manga y anime japonés escrito e ilustrado por George Abe y Masasumi Kakizaki. Fue publicado por primera vez en la revista Weekly Shōnen Magazine en 2006 y posteriormente adaptado en una serie de anime en 2010.&lt;br&gt;&lt;br&gt;
+        La serie sigue a siete jóvenes reclusos en un reformatorio en 1955, mientras enfrentan los desafíos y las adversidades de la vida detrás de las barras y formaron una fuerte amistad.&lt;br&gt;&lt;br&gt;
+        Es conocido por su impactante narrativa, su caracterización profunda y su exploración de temas como la amistad, la justicia y la redención.
+      </sinopsis>
+      <episodios>26</episodios>
+      <temporadas>1</temporadas>
+      <genero> Drama, Aventura</genero>
+      <año_comienzo>2010</año_comienzo>
+    </anime>
+    <anime url="animeinfo.html" cover="resources/my_hero_academia_cover.png" id="my_hero_academia">
+      <titulo_og>Boku No Hero</titulo_og>
+      <titulo>My Hero Academia</titulo>
+      <sinopsis>
+        My Hero Academia es un manga y anime japonés escrito e ilustrado por Kōhei Horikoshi. Haciendo su primera aparición en la Weekly Shōnen Jump (2014) y adaptado en una serie de anime en 2016.&lt;br&gt;&lt;br&gt;
+        La serie sigue a Izuku Midoriya, un joven sin “don” en un mundo donde la mayoría de la gente tiene habilidades especiales conocidas como "quirks", mientras sueña con convertirse en un héroe y estudia en la Academia U.A. High School para Héroes.&lt;br&gt;&lt;br&gt;
+        Es conocido por su acción emocionante y su caracterización profunda.
+      </sinopsis>
+      <episodios>113</episodios>
+      <temporadas>6</temporadas>
+      <genero>Acción, Fantasía</genero>
+      <año_comienzo>2016</año_comienzo>
+    </anime>
+    <anime url="animeinfo.html" cover="resources/demon_slayer_cover.png" id="demon_slayer">
+      <titulo_og>Kimetsu No Yaiba</titulo_og>
+      <titulo>Demon Slayer</titulo>
+      <sinopsis>
+        Demon Slayer: Kimetsu no Yaiba es un manga y anime japonés escrito e ilustrado por Koyoharu Gotōge. Fue publicado por primera vez en la revista Weekly Shōnen Jump en 2016 y posteriormente adaptado en una serie de anime en 2019.&lt;br&gt;&lt;br&gt;
+        La serie sigue a Tanjiro Kamado, un joven que se convierte en un cazador de demonios después de que su familia es atacada por un demonio y su hermana se convierte en uno.&lt;br&gt;&lt;br&gt;
+        Demon Slayer es conocido por su acción emocionante, su world-building detallado y su exploración de temas como la familia, la amistad y la determinación.  
+      </sinopsis>
+      <episodios>44</episodios>
+      <temporadas>3</temporadas>
+      <genero>Acción, Drama, Fantasía</genero>
+      <año_comienzo>2019</año_comienzo>
+    </anime>
+    <anime url="animeinfo.html" cover="resources/fate_stay_night_cover.png" id="fate_stay_night">
+      <titulo_og>Feito/sutei naito: Anrimiteddo Bureido Wākusu</titulo_og>
+      <titulo>Fate/stay night: Unlimited Blade Works</titulo>
+      <sinopsis>
+        Fate/stay night es una visual novel japonesa desarrollada por Type-Moon y lanzada al público en 2004.&lt;br&gt;&lt;br&gt;
+        Cuenta la historia del torneo conocido como Holy Grail War, donde siete magos llaman a siete servidores legendarios conocidos como "Saber", "Archer", "Lancer", etc., para pelear por el control del Santo Grial, un objeto capaz de otorgar cualquier deseo.&lt;br&gt;&lt;br&gt;
+        Shirou Emiya, será el joven protagonista de la obra, conocida por su trama enrevesada, y profunda, y la variedad de temas que se tratan como la búsqueda de una identidad, los romances, sin olvidar una acción trepidante.
+        Ha sido adaptado en varios anime, manga y películas, y ha desarrollado una amplia franquicia con una base de seguidores leales.
+      </sinopsis>
+      <episodios>44</episodios>
+      <temporadas>26</temporadas>
+      <genero>Acción, Aventura, Fantasía</genero>
+      <año_comienzo>2014</año_comienzo>
+    </anime>
+    <anime url="animeinfo.html" cover="resources/fullmetal_alchemist_cover.png"
+      id="fullmetal_alchemist">
+      <titulo_og>Hagane no Renkinjutsushi</titulo_og>
+      <titulo>Fullmetal Alchemist</titulo>
+      <sinopsis>
+        El anime y manga japonés, escrito e ilustrado por Hiromu Arakawa, Fullmetal Alchemist. Fue publicado por primera vez en la revista Monthly Shōnen Gangan (2001) y adaptado al anime en 2003.&lt;br&gt;&lt;br&gt;
+        Relata la historia de los hermanos Elric, Edward y Alphonse, que practican la alquimia en un mundo donde la ciencia y la magia coexisten, y buscan encontrar la piedra filosofal para recuperar sus cuerpos después de un fallido intento de traer de vuelta a su madre.&lt;br&gt;&lt;br&gt;
+        Fullmetal Alchemist es conocido por su acción emocionante, su caracterización profunda y su exploración de temas como la justicia, la fe y el sacrificio. 
+        Ha sido adaptado en varios anime, manga y películas, y ha desarrollado una amplia franquicia con una base de seguidores leales.
+      </sinopsis>
+      <episodios>64</episodios>
+      <temporadas>1</temporadas>
+      <genero>Acción, Drama, Fantasía</genero>
+      <año_comienzo>2009</año_comienzo>
+    </anime>
+    <anime url="animeinfo.html" cover="resources/tokyo_ghoul_cover.png" id="tokyo_ghoul">
+      <titulo_og>Tōkyō Gūru</titulo_og>
+      <titulo>Tokyo Ghoul</titulo>
+      <sinopsis>
+        Tokyo Ghoul es un manga y anime japonés escrito e ilustrado por Sui Ishida, publicado por primera vez en la revista Weekly Young Jump en 2011, y posteriormente adaptado en una serie de anime en 2014.&lt;br&gt;&lt;br&gt;
+        Retrata la vida de Ken Kaneki, un estudiante universitario que después de un encuentro con un ghoul, un ser humano-como criatura que se alimenta de carne humana, se convierte en un híbrido de ghoul y humano y comienza a explorar el submundo oculto de los ghouls en Tokio.&lt;br&gt;
+        Tokyo Ghoul es conocido por su atmósfera oscura y su exploración de temas como la identidad, la soledad y la moralidad.&lt;br&gt;&lt;br&gt;
+        Adaptado en varios anime, manga y películas, y ha desarrollado una amplia franquicia con una base de seguidores leales.
+      </sinopsis>
+      <episodios>48</episodios>
+      <temporadas>3</temporadas>
+      <genero>Terror, Acción, Drama, Fantasía, Acción</genero>
+      <año_comienzo>2014</año_comienzo>
+    </anime>
+    <anime url="animeinfo.html" cover="resources/code_geass_cover.png" id="code_geass">
+      <titulo_og>Kōdo Giasu</titulo_og>
+      <titulo>Code Geass</titulo>
+      <sinopsis>
+        Code Geass es un anime japonés producido por Sunrise y transmitido por primera vez en 2006, contando con dos temporadas.&lt;br&gt;&lt;br&gt;
+        La serie sigue a Lelouch Lamperouge, un joven príncipe británico que, después de recibir un poder conocido como "Geass", se convierte en un líder rebelde contra el Imperio Británico que ha conquistado Japón.&lt;br&gt;&lt;br&gt;
+        Con su nuevo poder, Lelouch comienza una campaña para derrocar al Imperio y crear un mundo mejor para todos. Code Geass es conocido por su estilo de animación y dirección impactante, su trama retorcida y sus personajes complejos. 
+        Muy aclamado por la crítica pública y profesional, el anime ha logrado convertirse en un clásico moderno.
+      </sinopsis>
+      <episodios>50</episodios>
+      <temporadas>2</temporadas>
+      <genero>Fantasía, Acción, Aventura</genero>
+      <año_comienzo>2014</año_comienzo>
+    </anime>
+
+    <pelicula url="animeinfo.html" cover="resources/el_viaje_de_chihiro_cover.png"
+      id="el_viaje_de_chihiro">
+      <titulo_og>Sen to Chihiro no kamikakushi</titulo_og>
+      <titulo>El Viaje de Chihiro</titulo>
+      <sinopsis>
+        El viaje de Chihiro es una película de animación japonesa estrenada el 20 de julio de 2001. Fue dirigida por Hayao Miyazaki, producida en el Studio Ghibli y distribuida por Tōhō.&lt;br&gt;&lt;br&gt;
+        La historia sigue a Chihiro, una niña de diez años que se encuentra atrapada en un mundo mágico después de que sus padres sean transformados en cerdos por una bruja malvada.&lt;br&gt;
+        Chihiro se embarca en una aventura para encontrar una manera de liberar a sus padres y regresar al mundo humano.&lt;br&gt;
+        En su viaje, Chihiro se encuentra con una variedad de criaturas místicas y seres mágicos, y descubre su propio coraje y determinación mientras lucha por sobrevivir en este mundo desconocido.&lt;br&gt;&lt;br&gt;
+        Es una película aclamada tanto a nivel nacional como internacional, reconocida por su hermosa animación, narrativa rica y personajes memorables. Ha sido elogiada por su exploración de temas como el crecimiento personal, la valentía y la importancia de la empatía y la amistad.
+      </sinopsis>
+      <genero>Fantasía, Aventura</genero>
+      <año_comienzo>2001</año_comienzo>
+    </pelicula>
+    <pelicula url="animeinfo.html" cover="resources/howls_moving_castle_cover.png"
+      id="howls_moving_castle">
+      <titulo_og>Howl no Ugoku Shiro </titulo_og>
+      <titulo>Howls Moving Castle</titulo>
+      <sinopsis>
+        El Castillo Ambulante es una película de animación japonesa producida por Studio Ghibli y dirigida por Hayao Miyazaki. Lanzada en 2004 y basada en el libro del mismo nombre de Diana Wynne Jones.&lt;br&gt;&lt;br&gt;
+        La historia sigue a Sophie, una joven que es transformada en una anciana por una bruja y se une a un mago llamado Howl y su castillo ambulante para escapar de la bruja y encontrar una cura para su maldición.&lt;br&gt;&lt;br&gt;
+        El Castillo Ambulante de Howl es ampliamente aclamado por su hermosa animación y su historia enternecedora.
+      </sinopsis>
+      <genero>Acción, Fantasía, Aventura</genero>
+      <año_comienzo>2004</año_comienzo>
+    </pelicula>
+    <pelicula url="animeinfo.html" cover="resources/akira_cover.png" id="akira">
+      <titulo_og>Akira</titulo_og>
+      <titulo>Akira</titulo>
+      <sinopsis>
+        Publicado originalmente en la revista Young Magazine (1982 -1990), y posteriormente adaptado en una película animada (1988), Akira cuenta la historia de un futuro distópico en la ciudad de Neo-Tokyo, después de una gran explosion atómica.&lt;br&gt;&lt;br&gt;
+        Sigue a dos amigos de la infancia, Tetsuo y Kaneda, mientras se ven envueltos en una conspiración gubernamental y experimentos con poderes psíquicos.&lt;br&gt;&lt;br&gt;
+        Akira es ampliamente reconocido como una obra maestra del anime y del cine de ciencia ficción, con un impacto significativo en la cultura popular y una influencia en muchas otras películas, series de televisión y videojuegos.
+      </sinopsis>
+      <genero>Fantasía, Acción, Drama</genero>
+      <año_comienzo>1988</año_comienzo>
+    </pelicula>
+  </animes>
+</AnimeWeb>

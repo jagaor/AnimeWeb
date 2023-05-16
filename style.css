@@ -1,0 +1,388 @@
+/* CSS de la página principal */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%22");
+
+/* General */
+
+html,body {
+	margin: 0;
+	padding: 0;
+	background-image: url(resources/fondo.jpg);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	background-size: cover;
+	font-family: "Poppins", sans-serif;
+	background-color: rgb(54, 50, 54);
+	min-width: 720px;
+}
+
+a:link {color: white;  font-family: "Poppins", sans-serif; text-decoration: none }
+a:hover {color: white;  font-family: "Poppins", sans-serif; text-decoration: none; }
+a:visited {color: white;  font-family: "Poppins", sans-serif; text-decoration: none; }
+
+h1 {
+	font-size: 50px;
+}
+
+/* Header */
+
+.page-container {
+	position: relative;
+	min-height: 100vh;
+}
+
+#header .wrapper {
+	background-color: rgb(15, 15, 15);
+	padding: 0px 50px 20px 50px;
+}
+.content-header {
+	display: grid;
+	grid-template-columns: 160px 4fr;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	border-radius: 20px;
+}
+.content-header p {
+	color: rgb(40, 40, 40);
+	font-size: 70px;
+	font-weight: bold;
+	margin: 0;
+}
+.content-header span {
+	color: rgb(87, 13, 102);
+	font-size: 80px;
+	font-weight: bold;
+	margin: 0;
+}
+.logo-wrap {
+	position: relative;
+}
+.logo-wrap img {
+	width: 120px;
+	border: 0;
+	position: absolute;
+  	top: 16%;
+	left: 20px;
+}
+
+/* Main */
+
+#main {
+	max-width: 900px;
+	margin: auto;
+	padding-bottom: 2.5rem;
+}
+#main .wrapper {
+	display: grid;
+	grid-template-columns: 2fr 6fr;
+}
+
+/* Sidebar */
+
+.sidebar-wrap {
+	min-width: 350px;
+	padding: 20px 10px;
+
+}
+.sidebar {
+	background-color: rgba(20, 20, 20, 0.9);
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	list-style:none;
+}
+.sidebar a {
+	background-color: rgb(15, 15, 15);
+	border-radius: 5px;
+    display: block;
+	padding: 10px 15px;
+    text-align: left;
+}
+.sidebar a:hover {
+	background-color: rgb(87, 13, 102);
+}
+
+/* Content */
+
+.content-main {
+	background-color: rgba(20, 20, 20, 0.9);
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+.content-wrap {
+	padding-right: 10px;
+}
+.animes-wrap {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 20px;
+	row-gap: 30px;
+}
+.animes-title {
+	grid-column: span 2;
+	text-align: center;
+	color: white;
+	background-color: rgb(87, 13, 102);
+	border-radius: 40px;
+}
+
+/* Covers */
+
+.cover {
+	margin: 0;
+}
+.cover a {
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.cover a:hover .img-container {
+	transform: scale(1.1);
+}
+.cover a:hover .img-container > span {
+	opacity: 0;
+}
+.cover .img-container {
+	position: relative;
+	border-radius: 10px;
+	overflow: hidden;
+	transition: .2s;
+}
+.cover img {
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	border: 0;
+	object-fit: cover;
+}
+.cover .img-container > span {
+	pointer-events:none;
+	transition: .2s;
+}
+.cover .year {
+	background-color: rgb(87, 13, 102);
+	position: absolute;
+	display: flex;
+    left: 0;
+    top: 0;
+	height: 2em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	border-radius: 2px;
+	align-items: center;
+}
+.cover .title {
+	position: absolute;
+    bottom: 0;
+	left: 50%;
+    transform: translate(-50%, 0);
+	width: 100%;
+	text-align: center;
+	
+}
+.cover .title h4 {
+	background-color: rgba(0, 0, 0, 0.8);
+	margin: 0;
+	padding: 0.25em 0.5em;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+/* Footer */
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 0;
+	height: 2.5rem;
+}
+#footer .wrapper {
+	background-color: rgb(15, 15, 15);
+	padding-top: 20px;
+}
+.content-footer {
+	text-align: center;
+	color: white;
+	padding: 20px
+}
+.content-footer p{
+	margin: 0;
+}
+.content-footer .l2{
+	font-size: 0.8em;
+}
+.content-footer span{
+	color: lightslategray;
+}
+
+/* Media */
+
+@media (max-width: 910px) {
+	body {
+		font-size: 1.25em;
+	}
+	
+	#main .wrapper {
+		grid-template-columns: 1fr;
+	}
+	.content-wrap {
+		padding-left: 10px;
+	}
+	.content-main {
+		padding: 20px 30px 40px 30px;
+	}
+
+	.animes-wrap {
+		column-gap: 30px;
+		row-gap: 45px;
+	}
+}
+@media (min-width: 1162px) {
+	#main {
+		max-width: 1150px;
+	}
+
+	.animes-wrap {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.animes-title {
+		grid-column: span 3;
+	}
+}
+@media (min-width: 1415px) {
+	#main {
+		max-width: 1400px;
+	}
+
+	.animes-wrap {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+	.animes-title {
+		grid-column: span 4;
+	}
+}
+
+/* CSS de las páginas de anime individuales */
+
+.inf-content-main {
+	background-color: rgba(20, 20, 20, 0.9);
+	color: white;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+.inf-content-wrap {
+	padding-right: 10px;
+}
+.anime-wrap {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+.anime-wrap img {
+	width: 100%;
+}
+.section-1 {
+	border: 2px solid rgb(200, 200, 200);
+	background-color: rgb(25, 20, 30);
+}
+.info {
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+}
+.info p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.info p:nth-child(n) {
+	background-color: rgb(38, 31, 46);
+}
+.section-2 {
+	padding: 20px;
+}
+
+ul, ol {
+	list-style:none;
+}	
+.nav > li {
+	float:left;
+}			
+.nav li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding:12px 15px;
+	display:block;
+}	
+.nav li a:hover {
+	background-color:#334333;
+}
+			
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+.nav li:hover > ul {
+	display:block;
+}
+.nav li ul li {
+	position:relative;
+}
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
+
+/* CSS de la página de verificación */
+
+#ageBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#ageGate {
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+}
+#ageGate h1 {
+	color: rgb(40, 40, 40);;
+	margin-bottom: 0;
+}
+#ageGate span {
+	color: rgb(87, 13, 102);
+	font-size: 58px;
+}
+#ageGate p {
+	font-size: 20px;
+}
+
+#dob {
+	font-size: 20px;
+	border-radius: 5px;
+}
+#ageButton {
+	display: block;
+	background-color: rgb(15, 15, 15);
+	color: white;
+	border-radius: 5px;
+	border: 0;
+	font-size : 20px;
+	padding: 10px 40px;
+	margin: 40px auto 20px;
+}
+#ageButton:hover {
+	background-color: rgb(87, 13, 102);
+	cursor: pointer;
+}
+#ageGate button {
+	display: block;
+}
