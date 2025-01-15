@@ -33,3 +33,8 @@ Anime Web
 
 ## <span style="color:#ff69b4;">License</span>
 This project is for educational purposes and is not licensed for commercial use. Feel free to use and adapt it for personal learning.
+
+## <span style="color:#ff69b4;">Preview</span>
+[
+![Captura de pantalla 2025-01-15 a las 13 47 09](https://github.com/user-attachments/assets/f50f1042-5c6b-4d3e-8019-ddbacf043537)
+](url)
