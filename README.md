@@ -26,5 +26,5 @@ Anime Web
 - **template.xsl**: XSLT file for transforming XML
 - **assets**:Folder for images and other assets
 
-<span style="color:#ff69b4;">License</span>
+## <span style="color:#ff69b4;">License</span>
 This project is for educational purposes and is not licensed for commercial use. Feel free to use and adapt it for personal learning.
