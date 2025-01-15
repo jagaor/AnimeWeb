@@ -18,10 +18,13 @@ Anime Web is a project developed as part of a class assignment to demonstrate th
 - **XML**: As a data source for the anime content.
 
 ## <span style="color:#32cd32;">Project Structure</span>
-Anime Web/
+Anime Web
 - **index.html**: Main HTML file
 - **style.css**: CSS file for styling
 - **script.js**: JavaScript file for interactivity
 - **data.xml**: XML file containing anime data
 - **template.xsl**: XSLT file for transforming XML
 - **assets**:Folder for images and other assets
+
+<span style="color:#ff69b4;">License</span>
+This project is for educational purposes and is not licensed for commercial use. Feel free to use and adapt it for personal learning.
