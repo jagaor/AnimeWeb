@@ -1,78 +1,42 @@
-Anime Web
+# <span style="color:#1e90ff;">Anime Web</span>
 
-Anime Web is a project developed as part of a class assignment to demonstrate the use of XSLT, HTML, CSS, XML, and JavaScript for creating dynamic and visually appealing web applications. This README provides an overview of the project and instructions for setting it up and using it.
+Anime Web is a project developed as part of a class assignment to demonstrate the use of **XSLT**, **HTML**, **CSS**, **XML**, and **JavaScript** for creating dynamic and visually appealing web applications. This README provides an overview of the project and instructions for setting it up and using it.
 
-Features
+## <span style="color:#ff6347;">Features</span>
 
-Dynamic Content Transformation: Uses XSLT to transform XML data into HTML.
+- **Dynamic Content Transformation**: Uses XSLT to transform XML data into HTML.
+- **Modern Web Design**: Styled using CSS for an engaging user experience.
+- **Interactive Functionality**: JavaScript is implemented to add interactivity and dynamic behaviors.
+- **Anime Themed**: The web application showcases anime-related content, such as series, characters, and genres.
 
-Modern Web Design: Styled using CSS for an engaging user experience.
+## <span style="color:#ffa500;">Technologies Used</span>
 
-Interactive Functionality: JavaScript is implemented to add interactivity and dynamic behaviors.
+- **XSLT**: For transforming XML data into HTML pages.
+- **HTML**: To structure the content of the website.
+- **CSS**: For styling and designing the layout.
+- **JavaScript**: To enhance user interaction and implement dynamic features.
+- **XML**: As a data source for the anime content.
 
-Anime Themed: The web application showcases anime-related content, such as series, characters, and genres.
+## <span style="color:#32cd32;">Project Structure</span>
 
-Technologies Used
 
-XSLT: For transforming XML data into HTML pages.
+## <span style="color:#6a5acd;">How to Run the Project</span>
 
-HTML: To structure the content of the website.
-
-CSS: For styling and designing the layout.
-
-JavaScript: To enhance user interaction and implement dynamic features.
-
-XML: As a data source for the anime content.
-
-Project Structure
-
-Anime Web/
-├── index.html           # Main HTML file
-├── style.css           # CSS file for styling
-├── script.js           # JavaScript file for interactivity
-├── data.xml            # XML file containing anime data
-├── template.xsl        # XSLT file for transforming XML
-└── assets/             # Folder for images and other assets
-
-How to Run the Project
-
-Clone the Repository:
-
-git clone <repository-url>
-cd Anime-Web
-
-Open the Project in a Browser:
-
-Open the index.html file in any modern web browser.
-
-View the Anime Content:
-
-The application dynamically loads and transforms XML data using the provided XSLT template.
-
-Explore the anime content displayed in a well-structured and styled format.
-
-Usage
-
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+   cd Anime-Web
+<span style="color:#dc143c;">Usage</span>
 Homepage: Displays a curated list of anime series and characters.
-
 Interactive Features: Clickable elements and filters allow users to explore different categories or search for specific anime.
-
 Dynamic Updates: Changes made to the XML file will automatically reflect on the webpage when reloaded.
-
-Contribution
-
+<span style="color:#00bfff;">Contribution</span>
 Contributions are welcome! To contribute:
 
 Fork the repository.
-
 Create a new branch (git checkout -b feature-name).
-
 Commit your changes (git commit -m 'Add feature name').
-
 Push to the branch (git push origin feature-name).
-
 Create a pull request.
-
-License
-
+<span style="color:#ff69b4;">License</span>
 This project is for educational purposes and is not licensed for commercial use. Feel free to use and adapt it for personal learning.
